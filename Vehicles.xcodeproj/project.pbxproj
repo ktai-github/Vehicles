@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2C5AEB6B1FC66E3000235070 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5AEB6A1FC66E3000235070 /* main.m */; };
+		2C5AEB731FC66E4300235070 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5AEB721FC66E4300235070 /* Vehicle.m */; };
+		2C8E4FAE1FC9084B003B7901 /* Bicycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E4FAD1FC9084B003B7901 /* Bicycle.m */; };
+		2C8E4FB11FC90C43003B7901 /* TandemBicycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8E4FB01FC90C43003B7901 /* TandemBicycle.m */; };
+		2CE08F9B1FC7B87300E9399A /* Train.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE08F9A1FC7B87300E9399A /* Train.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		2C5AEB671FC66E3000235070 /* Vehicles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vehicles; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5AEB6A1FC66E3000235070 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C5AEB711FC66E4300235070 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		2C5AEB721FC66E4300235070 /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		2C8E4FAC1FC9084B003B7901 /* Bicycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bicycle.h; sourceTree = "<group>"; };
+		2C8E4FAD1FC9084B003B7901 /* Bicycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bicycle.m; sourceTree = "<group>"; };
+		2C8E4FAF1FC90C42003B7901 /* TandemBicycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TandemBicycle.h; sourceTree = "<group>"; };
+		2C8E4FB01FC90C43003B7901 /* TandemBicycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TandemBicycle.m; sourceTree = "<group>"; };
+		2CE08F991FC7B87300E9399A /* Train.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Train.h; sourceTree = "<group>"; };
+		2CE08F9A1FC7B87300E9399A /* Train.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Train.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,14 @@
 		2C5AEB5E1FC66E3000235070 = {
 			isa = PBXGroup;
 			children = (
+				2C8E4FAF1FC90C42003B7901 /* TandemBicycle.h */,
+				2C8E4FB01FC90C43003B7901 /* TandemBicycle.m */,
+				2C8E4FAC1FC9084B003B7901 /* Bicycle.h */,
+				2C8E4FAD1FC9084B003B7901 /* Bicycle.m */,
+				2C5AEB711FC66E4300235070 /* Vehicle.h */,
+				2C5AEB721FC66E4300235070 /* Vehicle.m */,
+				2CE08F991FC7B87300E9399A /* Train.h */,
+				2CE08F9A1FC7B87300E9399A /* Train.m */,
 				2C5AEB691FC66E3000235070 /* Vehicles */,
 				2C5AEB681FC66E3000235070 /* Products */,
 			);
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE08F9B1FC7B87300E9399A /* Train.m in Sources */,
+				2C5AEB731FC66E4300235070 /* Vehicle.m in Sources */,
+				2C8E4FB11FC90C43003B7901 /* TandemBicycle.m in Sources */,
 				2C5AEB6B1FC66E3000235070 /* main.m in Sources */,
+				2C8E4FAE1FC9084B003B7901 /* Bicycle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
